@@ -1,0 +1,48 @@
+body {
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  gap: 30px;
+}
+
+.btn {
+  border: none;
+  padding: 12px 28px;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+/* Button Colors */
+.save {
+  background-color: #28a745;
+}
+
+.cancel {
+  background-color: #c0392b;
+}
+
+.submit {
+  background-color: #007bff;
+}
+
+/* Hover Effects */
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Click Effect */
+.btn:active {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+}

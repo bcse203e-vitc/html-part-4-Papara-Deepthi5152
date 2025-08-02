@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+h2 mark {
+  background-color: yellow;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.box {
+  width: 120px;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.static {
+  background-color: #3498db;
+  position: static;
+}
+
+.fixed {
+  background-color: #9b59b6;
+  position: absolute;
+  right: 20px;
+  top: 90px; 
+}
+
+
+
+.relative {
+  background-color: #e67e22;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.wrapper {
+  width: 600px;
+  height: 100px;
+  background-color: #f0f0f0;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+
+.absolute {
+  background-color: #2ecc71;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
